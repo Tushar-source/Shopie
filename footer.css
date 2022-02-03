@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* -webkit-box-sizing: border-box; */
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  /* text-transform: capitalize; */
+  /* -webkit-transition: all .2s linear; */
+  transition: all .2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+
+:root{
+    --blue: #0984e3;
+    --black: #333;
+    --gold: gold;
+    --light-color: #666;
+    --light-bg: #eee;
+    --border: 2rem solid #333;
+    --box-shadow: 0.5rem 1rem rgba(0,0,0,.2);
+}
+/* footer CSS */
+.footer{
+    padding: 1rem 9%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: var(--black);
+    
+}
+.logo {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.logo i{
+    color: var(--gold);
+}
+.footer .mynavbar ul li{
+    display: inline-block;
+}
+.footer .mynavbar ul li a{
+    display: inline-block; 
+    color: #fff;
+    font-size: 1.7rem;
+    margin:0 1rem;
+    text-decoration: none;
+}
+.footer .mynavbar ul li a:hover{
+    color:var(--gold);
+}
+.social_icons i{
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    
+}
+.social_icons i:hover{
+    color:var(--gold);
+}
+.credit{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    background-color: var(--black);
+    justify-content: space-between;
+    padding: 1rem 9%;
+    border-bottom: 1px solid #333;
+}
+.credit p{
+    font-size: 2rem;
+    color: #fff;
+}
+.credit p span{
+    color: var(--blue);
+}
+.credit img{
+    height: 4rem;
+    filter: drop-shadow(0 0 .1rem #333);
+}
